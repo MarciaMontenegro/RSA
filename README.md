@@ -9,7 +9,7 @@
 -FUNCIONAMIENTO DEL RSA_KEY_GENERATOR:
 Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 
-1. Para hallar P:
+- Para hallar P:
 	Utilizamos la funcion RANDOMGEN_PRIMOS(K), que genera un primo de forma aleatoria con MILLER RABIN de un tamaño determinado "K".
 	
 2. Para hallar Q:
@@ -36,6 +36,7 @@ Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 -PARA HACER EL CIFRADO:
 	Utilizamos la funcion EXPOMD con los datos N y E generados con RSA_KEY_GENERATOR.
 	Y M es ingresado.
+	
 -PARA HACER EL DESCIFRADO:
 	Utilizamos la funcion EXPOMD con los datos N y D generados con RSA_KEY_GENERATOR.
 	Y C es el dato ya cifrado al haber utilizado la funcion anterior.
