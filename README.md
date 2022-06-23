@@ -16,7 +16,6 @@ Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 	
 2. Para hallar Q:
 
-	Utilizamos la funcion RANDOMGEN_PRIMOS(K), que genera un primo de forma aleatoria con MILLER RABIN de un tamaño determinado "K".
 	Utilizamos la misma funcion que utilizamos para P, pero tiene un while que comprueba que P no sea igual a Q.
 	
 3. Para hallar N:
