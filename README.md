@@ -5,11 +5,12 @@
 			JOSUE CARPIO
 			MARCIA MONTENEGRO
 			
-      
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -FUNCIONAMIENTO DEL RSA_KEY_GENERATOR:
 Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 
-- Para hallar P:
+1 Para hallar P:
 	Utilizamos la funcion RANDOMGEN_PRIMOS(K), que genera un primo de forma aleatoria con MILLER RABIN de un tamaño determinado "K".
 	
 2. Para hallar Q:
@@ -33,6 +34,8 @@ Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 6. Para hallar D:
 	Se debe cumplir que ed sea congruente con 1 (mod Φ(N)), y esto lo hacemos hallando la inversa de e.
 	
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -PARA HACER EL CIFRADO:
 	Utilizamos la funcion EXPOMD con los datos N y E generados con RSA_KEY_GENERATOR.
 	Y M es ingresado.
