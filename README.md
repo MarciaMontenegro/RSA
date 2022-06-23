@@ -9,8 +9,10 @@
 -FUNCIONAMIENTO DEL RSA_KEY_GENERATOR:
 Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 
+
 1. Para hallar P:
 	Utilizamos la funcion RANDOMGEN_PRIMOS(K), que genera un primo de forma aleatoria con MILLER RABIN de un tamaño determinado "K".
+	
 	
 2. Para hallar Q:
 	Utilizamos la misma funcion que utilizamos para P, pero tiene un while que comprueba que P no sea igual a Q.
