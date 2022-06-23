@@ -16,7 +16,7 @@ Para una mejor explicacion del algoritmo, lo dividiremos en partes:
 	
 2. Para hallar Q:
 
-	Utilizamos la misma funcion que utilizamos para P, pero tiene un while que comprueba que P no sea igual a Q.
+	Utilizamos la misma funcion que utilizamos para P, pero tiene un while que comprueba que P no sea igual a Q.						
 	
 3. Para hallar N:
 
